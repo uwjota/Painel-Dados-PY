@@ -5,8 +5,8 @@ import re # Biblioteca para expressões regulares.
 from twilio.rest import Client #Biblioteca Consultar numero.
 
 # Credenciais da API de consulta Twilio
-account_sid = 'AC16de2e7d8bf685e8a2e3dddafdcc5a2b'
-auth_token = 'b5f0c331f5955287f77f85992192d514'
+account_sid = 'SUA_SID'
+auth_token = 'SEU_TOKEN'
 
 client = Client(account_sid, auth_token)
 
